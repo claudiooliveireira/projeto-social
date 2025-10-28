@@ -36,12 +36,12 @@ section#telefone {
     
     background: url(../imagens/frame-iphone.png) no-repeat}
 
-
+/* dentro do celular*/
 iframe#tela {
     position: relative;
     top: 81px;
     left: 22px;
-    /* dentro do celular*/
+    /* dentro da tela*/
     width: 268px;
     height: 470px;
 }
