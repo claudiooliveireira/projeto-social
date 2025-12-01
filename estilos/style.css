@@ -41,7 +41,29 @@ iframe#tela {
     position: relative;
     top: 81px;
     left: 22px;
-    /* dentro da tela*/
+    /* dentro da tela*/ 
     width: 268px;
     height: 470px;
 }
+/* botão do lado direito*/
+section#redes-sociais {
+    text-align: right;
+}
+
+/* imagens logos redes*/
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 50);
+    box-sizing: border-box;
+}
+
+/* efeito hover nos botões*/
+section#redes-sociais img:hover {
+    border:2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s;
+}
+ 
